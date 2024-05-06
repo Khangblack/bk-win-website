@@ -1,0 +1,53 @@
+/* Định dạng chung */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ff6666; /* Màu đỏ chủ đạo của trang */
+    color: #333; /* Màu chữ chính */
+    line-height: 1.6;
+}
+
+/* Định dạng phần header */
+header {
+    background-color: #cc3333; /* Màu đỏ tối cho header */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Định dạng phần content chính */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Nền trắng cho phần content */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.games {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.game {
+    flex: 0 0 30%; /* Độ rộng của mỗi game là 30% */
+    padding: 15px;
+    background-color: #f2f2f2; /* Màu nền xám nhạt cho từng game */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.game h3 {
+    color: #cc3333; /* Màu đỏ cho tiêu đề của từng game */
+}
+
+/* Định dạng phần footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #cc3333; /* Màu đỏ tối cho footer */
+    color: #fff;
+}
